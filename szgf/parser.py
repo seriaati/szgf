@@ -4,7 +4,7 @@ from enum import StrEnum
 from operator import itemgetter
 from typing import TYPE_CHECKING
 
-import hakushin
+import hb_data
 
 from szgf.schemas.original import Section
 from szgf.schemas.parsed import (
@@ -88,27 +88,27 @@ STAT_KW_MATCHES = {
 }
 
 
-async def get_character_by_name(name: str) -> hakushin.zzz.Character | None:
-    async with hakushin.HakushinAPI(hakushin.Game.ZZZ) as api:
-        characters = await api.fetch_characters()
+async def get_character_by_name(name: str) -> hb_data.zzz.Character | None:
+    async with hb_data.ZZZClient() as client:
+        characters = client.get_characters()
         for character in characters:
             if character.name.lower() == name.lower():
                 return character
     return None
 
 
-async def get_weapon_by_name(name: str) -> hakushin.zzz.Weapon | None:
-    async with hakushin.HakushinAPI(hakushin.Game.ZZZ) as api:
-        weapons = await api.fetch_weapons()
+async def get_weapon_by_name(name: str) -> hb_data.zzz.Weapon | None:
+    async with hb_data.ZZZClient() as client:
+        weapons = client.get_weapons()
         for weapon in weapons:
             if weapon.name.lower() == name.lower():
                 return weapon
     return None
 
 
-async def get_drive_disc_by_name(name: str) -> hakushin.zzz.DriveDisc | None:
-    async with hakushin.HakushinAPI(hakushin.Game.ZZZ) as api:
-        drive_discs = await api.fetch_drive_discs()
+async def get_drive_disc_by_name(name: str) -> hb_data.zzz.DriveDiscSet | None:
+    async with hb_data.ZZZClient() as client:
+        drive_discs = client.get_drive_disc_sets()
         for disc in drive_discs:
             if disc.name.lower() == name.lower():
                 return disc
@@ -141,7 +141,7 @@ async def _parse_weapons(original_weapons: list[WeaponSection]) -> list:
         if weapon_data is not None:
             parsed_weapon = ParsedWeaponSection(
                 id=weapon_data.id,
-                rarity=weapon_data.rarity,
+                rarity=weapon_data.rarity_str,
                 specialty=weapon_data.specialty,
                 icon=weapon.icon or weapon_data.icon,
                 **weapon.model_dump(exclude={"icon"}),

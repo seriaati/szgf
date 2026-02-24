@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections.abc import Sequence  # noqa: TC003
 from typing import Literal
 
-import hakushin  # noqa: TC002
+import hb_data  # noqa: TC002
 import pydantic
 
 from .original import Character, OriginalGuide, Team, TeamMember, TeamSection, WeaponSection
@@ -20,14 +20,14 @@ __all__ = (
 
 class ParsedCharacter(Character):
     id: int
-    element: hakushin.ZZZElement | None
-    specialty: hakushin.ZZZSpecialty
+    element: hb_data.zzz.ElementType | None
+    specialty: hb_data.zzz.Specialty
 
 
 class ParsedWeaponSection(WeaponSection):
     id: int
     rarity: Literal["S", "A", "B"]
-    specialty: hakushin.ZZZSpecialty
+    specialty: hb_data.zzz.Specialty
     icon: str
 
 
