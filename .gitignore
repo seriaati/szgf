@@ -214,3 +214,4 @@ szgf-ts/dist/
 
 # Downloaded guides
 .zzz_guides/
+.hb_data/
