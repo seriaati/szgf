@@ -92,7 +92,10 @@ async def get_character_by_name(name: str) -> hb_data.zzz.Character | None:
     async with hb_data.ZZZClient() as client:
         characters = client.get_characters()
         for character in characters:
-            if character.name.lower() == name.lower():
+            if (
+                character.name.lower() == name.lower()
+                or character.full_name.lower() == name.lower()
+            ):
                 return character
     return None
 
@@ -119,7 +122,7 @@ async def _parse_character(original_character: Character) -> ParsedCharacter:
     """Parse character data from original guide."""
     character = await get_character_by_name(original_character.name)
     if character is None:
-        msg = f"Character '{original_character.name}' not found in Hakushin API"
+        msg = f"Character '{original_character.name}' not found"
         raise ValueError(msg)
 
     return ParsedCharacter(
@@ -128,7 +131,7 @@ async def _parse_character(original_character: Character) -> ParsedCharacter:
         element=character.element,
         specialty=character.specialty,
         rarity=original_character.rarity,
-        banner=f"https://api.hakush.in/zzz/UI/Mindscape_{character.id}_3.webp",
+        banner=f"https://zzz.honeyhunterworld.com/img/character/{character.id}-char_mindscape3_icon.webp",
     )
 
 
@@ -158,7 +161,7 @@ async def _parse_four_piece_discs(four_pieces: list[DiscSetSection]) -> None:
     for disc_section in four_pieces:
         disc_data = await get_drive_disc_by_name(disc_section.name)
         if disc_data is None:
-            msg = f"Drive disc '{disc_section.name}' not found in Hakushin API"
+            msg = f"Drive disc '{disc_section.name}' not found"
             raise ValueError(msg)
 
         disc_section.icon = SINGLE_DISC_ICON_URL.format(id=disc_data.id)
@@ -172,7 +175,7 @@ async def _parse_two_piece_discs(two_pieces: list[DiscSetSection]) -> None:
         for disc_name in disc_names:
             disc_data = await get_drive_disc_by_name(disc_name)
             if disc_data is None:
-                msg = f"Drive disc '{disc_name}' not found in Hakushin API"
+                msg = f"Drive disc '{disc_name}' not found"
                 raise ValueError(msg)
             disc_ids.append(disc_data.id)
 
@@ -204,7 +207,7 @@ async def _parse_team_member(member: TeamMember) -> ParsedTeamMember:
     for name in member_names:
         member_data = await get_character_by_name(name)
         if member_data is None:
-            msg = f"Team member '{name}' not found in Hakushin API"
+            msg = f"Team member '{name}' not found"
             raise ValueError(msg)
         member_ids.append(member_data.id)
         member_icons.append(member_data.icon)
@@ -376,7 +379,7 @@ def _mass_replace_stat_keywords(original: OriginalGuide) -> None:  # noqa: PLR09
 
 
 async def parse_original_guide(original: OriginalGuide) -> ParsedGuide:
-    """Parse an original guide into a parsed guide with enriched data from Hakushin API."""
+    """Parse an original guide into a parsed guide with enriched data."""
     _mass_replace_stat_keywords(original)
 
     parsed_character = await _parse_character(original.character)
