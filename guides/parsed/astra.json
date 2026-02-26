@@ -2,9 +2,9 @@
   "author": "Mercer",
   "last_updated": "2025-06-25",
   "character": {
-    "name": "Astra Yao",
+    "name": "Astra",
     "rarity": 5,
-    "banner": "https://api.hakush.in/zzz/UI/Mindscape_1311_3.webp",
+    "banner": "https://zzz.honeyhunterworld.com/img/character/1311-char_mindscape3_icon.webp",
     "id": 1311,
     "element": 205,
     "specialty": 4
@@ -15,7 +15,7 @@
       "name": "Elegant Vanity",
       "description": "**Best in Slot in all situations**, provides Astra with **Energy Regeneration**, a **stacking 10% DMG Boost** for the whole team and a massive **30% <atk> ATK Main Stat** to help her with reaching her <core> **Core Passive Requirement**, but due to the strength of A Rank Support W-Engine's, this W-Engine is somewhat overkill and Astra can reach full potential without it.",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1311.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14131-weapon_data_icon.webp",
       "id": 14131,
       "rarity": "S",
       "specialty": 4
@@ -24,7 +24,7 @@
       "name": "Bashful Demon",
       "description": "The best peforming A Rank W-Engine for Astra, providing a generous **3.2% Combat <atk> ATK% boost** that **stacks up to 4 times** at S5 while having a **ATK% Main Stat** to help out with Astra's <core> **Core Passive requirement** making it all around the best.",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_A_1131.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/13113-weapon_data_icon.webp",
       "id": 13113,
       "rarity": "A",
       "specialty": 4
@@ -33,7 +33,7 @@
       "name": "Kaboom the Cannon",
       "description": "The 2nd best A Rank W-Engine for Astra, almost has the exact same passive bonuses as Bashful Demon but requires way more careful play to maximise it, requiring constant **Quick Assists** to keep its effect up, it also doesn't have access to a **ATK% Main Stat** making it harder to fulfill Astra's <core> **Core Passive requirement** but still a servicable option if you don't have Bashful Demon.",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_A_1151.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/13115-weapon_data_icon.webp",
       "id": 13115,
       "rarity": "A",
       "specialty": 4
@@ -131,7 +131,7 @@
               1091
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect13.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1091-char_icon.webp"
             ]
           },
           {
@@ -142,9 +142,9 @@
               1331
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect31.webp",
-              "https://api.hakush.in/zzz/UI/IconRoleSelect32.webp",
-              "https://api.hakush.in/zzz/UI/IconRoleSelect41.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1221-char_icon.webp",
+              "https://zzz.honeyhunterworld.com/img/character/1171-char_icon.webp",
+              "https://zzz.honeyhunterworld.com/img/character/1331-char_icon.webp"
             ]
           },
           {
@@ -153,7 +153,7 @@
               1311
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect36.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1311-char_icon.webp"
             ]
           }
         ],
@@ -168,7 +168,7 @@
               1321
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect37.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1321-char_icon.webp"
             ]
           },
           {
@@ -179,9 +179,9 @@
               1101
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect26.webp",
-              "https://api.hakush.in/zzz/UI/IconRoleSelect39.webp",
-              "https://api.hakush.in/zzz/UI/IconRoleSelect14.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1161-char_icon.webp",
+              "https://zzz.honeyhunterworld.com/img/character/1361-char_icon.webp",
+              "https://zzz.honeyhunterworld.com/img/character/1101-char_icon.webp"
             ]
           },
           {
@@ -190,7 +190,7 @@
               1311
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect36.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1311-char_icon.webp"
             ]
           }
         ],

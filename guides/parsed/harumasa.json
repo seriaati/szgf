@@ -4,7 +4,7 @@
   "character": {
     "name": "Harumasa",
     "rarity": 5,
-    "banner": "https://api.hakush.in/zzz/UI/Mindscape_1201_3.webp",
+    "banner": "https://zzz.honeyhunterworld.com/img/character/1201-char_mindscape3_icon.webp",
     "id": 1201,
     "element": 203,
     "specialty": 1
@@ -15,7 +15,7 @@
       "name": "Zanshin Herb Case",
       "description": "BIS W-Engine, gives a near 100% uptime on 20 <cr> Crit Rate when needed, on top of its <cd> Crit Damage Main Stat while providing a massive 40% <elec> Electric DMG Bonus to his Dash Attacks, his main source of damage.",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1201.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14120-weapon_data_icon.webp",
       "id": 14120,
       "rarity": "S",
       "specialty": 1
@@ -30,7 +30,7 @@
       "name": "The Brimstone",
       "description": "Best Non-Limited S Rank W-Engine, gives an insane amount of <atk> ATK due to its Main Stat while also providing insane in-combat <atk> ATK%",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1041.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14104-weapon_data_icon.webp",
       "id": 14104,
       "rarity": "S",
       "specialty": 1
@@ -121,7 +121,7 @@
               1251
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect29.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1251-char_icon.webp"
             ]
           },
           {
@@ -130,7 +130,7 @@
               1031
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect12.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1031-char_icon.webp"
             ]
           },
           {
@@ -139,7 +139,7 @@
               1201
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect35.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1201-char_icon.webp"
             ]
           }
         ],
@@ -154,7 +154,7 @@
               1251
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect29.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1251-char_icon.webp"
             ]
           },
           {
@@ -163,7 +163,7 @@
               1211
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect22.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1211-char_icon.webp"
             ]
           },
           {
@@ -172,7 +172,7 @@
               1201
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect35.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1201-char_icon.webp"
             ]
           }
         ],

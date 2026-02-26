@@ -4,7 +4,7 @@
   "character": {
     "name": "Ye Shunguang",
     "rarity": 5,
-    "banner": "https://api.hakush.in/zzz/UI/Mindscape_1431_3.webp",
+    "banner": "https://zzz.honeyhunterworld.com/img/character/1431-char_mindscape3_icon.webp",
     "id": 1431,
     "element": 200,
     "specialty": 1
@@ -15,7 +15,7 @@
       "name": "Cloudcleave Radiance",
       "description": "Perfect synergy with Ye Shunguang as it provides a huge <cd> CDMG% boost on top of DMG% and Phys Res ignore.",
       "title": "Best W-Engine",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1431.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14143-weapon_data_icon.webp",
       "id": 14143,
       "rarity": "S",
       "specialty": 1
@@ -24,7 +24,7 @@
       "name": "The Brimstone",
       "description": "At low copy levels a somewhat mediocre option but scales excellently at higher levels due to most of Ye Shunguang's attacks during Enlightened Mind State being from basic attacks although you have to use more in-air basic attacks to ramp stacks faster. At max copies this W-Engine performs close to her Signature. Make sure to run CMDG% in Slot 4 of Disk Drives.",
       "title": "Good Scaling",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1041.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14104-weapon_data_icon.webp",
       "id": 14104,
       "rarity": "S",
       "specialty": 1
@@ -33,7 +33,7 @@
       "name": "Severed Innocence",
       "description": "A good stat sick due to purely being <cd> CDMG% and no <cr> CRATE%.",
       "title": "Best Limited Non-Signature W-Engine",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1381.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14138-weapon_data_icon.webp",
       "id": 14138,
       "rarity": "S",
       "specialty": 1
@@ -42,7 +42,7 @@
       "name": "Steel Cushion",
       "description": "A good alternative incase you do not own The Brimstone due to high base stats and Phys DMG%. Make sure to run CMDG% in Slot 4 of Disk Drives.",
       "title": "Alternative to The Brimstone",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1021.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14102-weapon_data_icon.webp",
       "id": 14102,
       "rarity": "S",
       "specialty": 1
@@ -139,7 +139,7 @@
               1431
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect55.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1431-char_icon.webp"
             ]
           },
           {
@@ -148,7 +148,7 @@
               1481
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect54.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1481-char_icon.webp"
             ]
           },
           {
@@ -157,7 +157,7 @@
               1341
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect56.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1341-char_icon.webp"
             ]
           }
         ],
@@ -172,7 +172,7 @@
               1431
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect55.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1431-char_icon.webp"
             ]
           },
           {
@@ -181,7 +181,7 @@
               1361
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect39.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1361-char_icon.webp"
             ]
           },
           {
@@ -190,7 +190,7 @@
               1311
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect36.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1311-char_icon.webp"
             ]
           }
         ],

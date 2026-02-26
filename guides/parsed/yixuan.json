@@ -2,9 +2,9 @@
   "author": "Mercer",
   "last_updated": "2025-06-25",
   "character": {
-    "name": "Yixuan",
+    "name": "YiXuan",
     "rarity": 5,
-    "banner": "https://api.hakush.in/zzz/UI/Mindscape_1371_3.webp",
+    "banner": "https://zzz.honeyhunterworld.com/img/character/1371-char_mindscape3_icon.webp",
     "id": 1371,
     "element": 205,
     "specialty": 6
@@ -15,7 +15,7 @@
       "name": "Qingming Birdcage",
       "description": "**Best in Slot in all situations**, has a **HP% Main Stat**, **in-combat Crit Rate**,  gives **stacking <ether> Ether DMG% Bonus** and **Ether Sheer DMG% Bonus** for <special> **EX Special & <chain> Ultimate**,  her two highest damaging abilities",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1371.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14137-weapon_data_icon.webp",
       "id": 14137,
       "rarity": "S",
       "specialty": 6
@@ -30,7 +30,7 @@
       "name": "Radiowave Journey",
       "description": "Best A Rank option due to having a **HP% Main Stat** but requires the Battle Pass, when using a <chain> **Chain Attack** or **Ultimate**, gain a **Sheer Force Stat Boost** which can **stack up to 3 times**",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_A_Common_14.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/13014-weapon_data_icon.webp",
       "id": 13014,
       "rarity": "A",
       "specialty": 6
@@ -39,7 +39,7 @@
       "name": "Puzzle Sphere",
       "description": "The 2nd best option following closely behind Radiowave Journey, providing a **Crit DMG Boost** for 12s upon using <special> **EX Special**, and on top of that, if the enemy is at or **below 50% HP** they will **recieve more DMG** from said <special> **EX Special**, a respectable choice, even better than Radiowave Journery when Puzzle Sphere is at S5.",
       "title": null,
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_A_Common_12.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/13012-weapon_data_icon.webp",
       "id": 13012,
       "rarity": "A",
       "specialty": 6
@@ -156,7 +156,7 @@
               1371
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect44.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1371-char_icon.webp"
             ]
           },
           {
@@ -165,7 +165,7 @@
               1421
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect45.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1421-char_icon.webp"
             ]
           },
           {
@@ -174,7 +174,7 @@
               1311
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect36.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1311-char_icon.webp"
             ]
           }
         ],
@@ -189,7 +189,7 @@
               1371
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect44.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1371-char_icon.webp"
             ]
           },
           {
@@ -198,7 +198,7 @@
               1421
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect45.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1421-char_icon.webp"
             ]
           },
           {
@@ -207,7 +207,7 @@
               1391
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect43.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1391-char_icon.webp"
             ]
           }
         ],
@@ -222,7 +222,7 @@
               1371
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect44.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1371-char_icon.webp"
             ]
           },
           {
@@ -231,7 +231,7 @@
               1421
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect45.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1421-char_icon.webp"
             ]
           },
           {
@@ -240,7 +240,7 @@
               1351
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect38.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1351-char_icon.webp"
             ]
           }
         ],

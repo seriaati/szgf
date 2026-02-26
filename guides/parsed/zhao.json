@@ -4,7 +4,7 @@
   "character": {
     "name": "Zhao",
     "rarity": 5,
-    "banner": "https://api.hakush.in/zzz/UI/Mindscape_1341_3.webp",
+    "banner": "https://zzz.honeyhunterworld.com/img/character/1341-char_mindscape3_icon.webp",
     "id": 1341,
     "element": 202,
     "specialty": 5
@@ -15,7 +15,7 @@
       "name": "Half-Sugar Bunny",
       "description": "A very strong W-Engine for Zhao giving a bunch of different buffs like 10% <atk> ATK and 30% CDMG while giving her extra <er> ER% allowing her passive full uptime.",
       "title": "Best W-Engine",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1341.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14134-weapon_data_icon.webp",
       "id": 14134,
       "rarity": "S",
       "specialty": 5
@@ -24,7 +24,7 @@
       "name": "Tusks of Fury",
       "description": "While nowhere near close to Zhao's Engine this is still a decent option due to proving a decent 18% DMG%.",
       "title": "2nd Best Option",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1071.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14107-weapon_data_icon.webp",
       "id": 14107,
       "rarity": "S",
       "specialty": 5
@@ -33,7 +33,7 @@
       "name": "Original Transmorpher",
       "description": "While not being able to compete with her Signature or Tusks of Fury it still has a decent <hp> HP% main stat allowing near of full DMG% of her passive.",
       "title": "Best A Rank Option",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_A_Common_07.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/13007-weapon_data_icon.webp",
       "id": 13007,
       "rarity": "A",
       "specialty": 5
@@ -125,7 +125,7 @@
               1431
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect55.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1431-char_icon.webp"
             ]
           },
           {
@@ -134,7 +134,7 @@
               1481
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect54.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1481-char_icon.webp"
             ]
           },
           {
@@ -143,7 +143,7 @@
               1341
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect56.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1341-char_icon.webp"
             ]
           }
         ],
@@ -160,9 +160,9 @@
               1021
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect05.webp",
-              "https://api.hakush.in/zzz/UI/IconRoleSelect21.webp",
-              "https://api.hakush.in/zzz/UI/IconRoleSelect11.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1041-char_icon.webp",
+              "https://zzz.honeyhunterworld.com/img/character/1191-char_icon.webp",
+              "https://zzz.honeyhunterworld.com/img/character/1021-char_icon.webp"
             ]
           },
           {
@@ -172,8 +172,8 @@
               1161
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect54.webp",
-              "https://api.hakush.in/zzz/UI/IconRoleSelect26.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1481-char_icon.webp",
+              "https://zzz.honeyhunterworld.com/img/character/1161-char_icon.webp"
             ]
           },
           {
@@ -182,7 +182,7 @@
               1341
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect56.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1341-char_icon.webp"
             ]
           }
         ],

@@ -4,7 +4,7 @@
   "character": {
     "name": "Miyabi",
     "rarity": 5,
-    "banner": "https://api.hakush.in/zzz/UI/Mindscape_1091_3.webp",
+    "banner": "https://zzz.honeyhunterworld.com/img/character/1091-char_mindscape3_icon.webp",
     "id": 1091,
     "element": 202,
     "specialty": 3
@@ -15,7 +15,7 @@
       "name": "Hailstorm Shrine",
       "description": "This is the best W engine for Hoshimi Miyabi.With 24% <cr> crit rate on main stats, 50% <cd> crit dmg and 40% <ice> ice dmg can make you build her easier.",
       "title": "Best W engine and only one, no replacement",
-      "icon": "https://api.hakush.in/zzz/UI/Weapon_S_1091.webp",
+      "icon": "https://zzz.honeyhunterworld.com/img/item/14109-weapon_data_icon.webp",
       "id": 14109,
       "rarity": "S",
       "specialty": 3
@@ -115,7 +115,7 @@
               1091
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect13.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1091-char_icon.webp"
             ]
           },
           {
@@ -124,7 +124,7 @@
               1141
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect18.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1141-char_icon.webp"
             ]
           },
           {
@@ -133,7 +133,7 @@
               1131
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect17.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1131-char_icon.webp"
             ]
           }
         ],
@@ -148,7 +148,7 @@
               1091
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect13.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1091-char_icon.webp"
             ]
           },
           {
@@ -157,7 +157,7 @@
               1411
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect47.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1411-char_icon.webp"
             ]
           },
           {
@@ -166,7 +166,7 @@
               1131
             ],
             "icons": [
-              "https://api.hakush.in/zzz/UI/IconRoleSelect17.webp"
+              "https://zzz.honeyhunterworld.com/img/character/1131-char_icon.webp"
             ]
           }
         ],
