@@ -7,6 +7,7 @@ from dataclasses import dataclass
 
 import aiofiles.os
 import anyio
+import hb_data
 import httpx
 from loguru import logger
 from PIL import Image
@@ -20,19 +21,9 @@ class Item:
     name: str
 
 
-async def fetch_drive_discs() -> list[Item]:
-    url = "https://api.hakush.in/zzz/data/en/item.json"
-
-    async with httpx.AsyncClient() as client:
-        response = await client.get(url)
-        response.raise_for_status()
-        data = response.json()
-
-    items = [
-        Item(id=item_id, icon=item_data["icon"], rank=item_data["rank"], name=item_data["name"])
-        for item_id, item_data in data.items()
-    ]
-    return [i for i in items if i.rank == 4 and "[1]" in i.name]
+async def fetch_drive_discs() -> list[hb_data.zzz.DriveDisc]:
+    async with hb_data.ZZZClient() as client:
+        return client.get_drive_discs()
 
 
 async def download_image(url: str, path: pathlib.Path) -> None:
@@ -48,17 +39,16 @@ async def download_image(url: str, path: pathlib.Path) -> None:
 
 
 async def download_drive_disc_images() -> None:
-    items = await fetch_drive_discs()
+    drive_discs = await fetch_drive_discs()
+
     async with asyncio.TaskGroup() as tg:
-        for item in items:
-            image_url = (
-                f"https://api.hakush.in/zzz/UI/{item.icon.split('/')[-1].replace('.png', '.webp')}"
-            )
-            set_id = item.id[:3] + "00"
+        for disc in drive_discs:
+            image_url = disc.icon
+            set_id = str(disc.id)[:3] + "00"
             save_path = pathlib.Path("assets/drive_discs/single") / f"{set_id}.webp"
 
             if save_path.exists():
-                logger.info(f"Image for item {item.id} already exists at {save_path}, skipping.")
+                logger.info(f"Image for item {disc.id} already exists at {save_path}, skipping.")
                 continue
 
             tg.create_task(download_image(image_url, save_path))
