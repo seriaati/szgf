@@ -87,6 +87,10 @@ class SZGFClient:
         guides: dict[str, ParsedGuide] = {}
         guide_dir = self._guides_dir
 
+        if not guide_dir.exists():
+            msg = "Guides have not been downloaded. Use 'await download_guides()' first."
+            raise RuntimeError(msg)
+
         entries = await aiofiles.os.scandir(guide_dir)
 
         for entry in entries:
