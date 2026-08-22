@@ -4,7 +4,7 @@
   "character": {
     "name": "Miyabi",
     "rarity": 5,
-    "banner": "https://zzz.honeyhunterworld.com/img/character/1091-char_mindscape3_icon.webp",
+    "banner": "https://static.nanoka.cc/assets/zzz/Mindscape_1091_3.webp",
     "id": 1091,
     "element": 202,
     "specialty": 3
@@ -15,7 +15,7 @@
       "name": "Hailstorm Shrine",
       "description": "This is the best W engine for Hoshimi Miyabi.With 24% <cr> crit rate on main stats, 50% <cd> crit dmg and 40% <ice> ice dmg can make you build her easier.",
       "title": "Best W engine and only one, no replacement",
-      "icon": "https://zzz.honeyhunterworld.com/img/item/14109-weapon_data_icon.webp",
+      "icon": "https://static.nanoka.cc/assets/zzz/Weapon_S_1091.webp",
       "id": 14109,
       "rarity": "S",
       "specialty": 3
@@ -115,7 +115,7 @@
               1091
             ],
             "icons": [
-              "https://zzz.honeyhunterworld.com/img/character/1091-char_icon.webp"
+              "https://static.nanoka.cc/assets/zzz/IconRoleSelect13.webp"
             ]
           },
           {
@@ -124,7 +124,7 @@
               1141
             ],
             "icons": [
-              "https://zzz.honeyhunterworld.com/img/character/1141-char_icon.webp"
+              "https://static.nanoka.cc/assets/zzz/IconRoleSelect18.webp"
             ]
           },
           {
@@ -133,7 +133,7 @@
               1131
             ],
             "icons": [
-              "https://zzz.honeyhunterworld.com/img/character/1131-char_icon.webp"
+              "https://static.nanoka.cc/assets/zzz/IconRoleSelect17.webp"
             ]
           }
         ],
@@ -148,7 +148,7 @@
               1091
             ],
             "icons": [
-              "https://zzz.honeyhunterworld.com/img/character/1091-char_icon.webp"
+              "https://static.nanoka.cc/assets/zzz/IconRoleSelect13.webp"
             ]
           },
           {
@@ -157,7 +157,7 @@
               1411
             ],
             "icons": [
-              "https://zzz.honeyhunterworld.com/img/character/1411-char_icon.webp"
+              "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp"
             ]
           },
           {
@@ -166,7 +166,7 @@
               1131
             ],
             "icons": [
-              "https://zzz.honeyhunterworld.com/img/character/1131-char_icon.webp"
+              "https://static.nanoka.cc/assets/zzz/IconRoleSelect17.webp"
             ]
           }
         ],
