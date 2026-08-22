@@ -131,7 +131,7 @@ async def _parse_character(original_character: Character) -> ParsedCharacter:
         element=character.element,
         specialty=character.specialty,
         rarity=original_character.rarity,
-        banner=f"https://zzz.honeyhunterworld.com/img/character/{character.id}-char_mindscape3_icon.webp",
+        banner=f"https://static.nanoka.cc/assets/zzz/Mindscape_{character.id}_3.webp",
     )
 
 
