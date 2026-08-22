@@ -324,7 +324,7 @@ def _replace_stat_keywords(string: str) -> str:
     return result
 
 
-def _mass_replace_stat_keywords(original: OriginalGuide) -> None:  # noqa: PLR0912
+def _mass_replace_stat_keywords(original: OriginalGuide) -> None:  # ruff: ignore[too-many-branches]
     # Guide description
     original.description = _replace_stat_keywords(original.description)
 
